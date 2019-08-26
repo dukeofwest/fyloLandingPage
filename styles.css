@@ -1,0 +1,124 @@
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap');
+    /*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+    
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        margin-left: 0px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .topnav {
+        overflow: hidden;
+    }
+    
+    .topnav a {
+        float: right;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .leftPage {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 50%;
+        background-image: linear-gradient(to top left, hsl(243, 86%, 85%), hsl(243, 87%, 12%));
+    }
+    
+    .leftPage img {
+        width: 40%;
+        height: 50%;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    /* @media only screen and (max-width: 600px) {
+    .leftPage img {
+        width: 100%;
+        height: fit-content;
+        z-index: -1;
+    } */
+    /* .leftPage img {
+    width: 100%;
+    height: fit-content;
+    z-index: -1;
+} */
+    
+    .rightPage {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        bottom: 0;
+        width: 50%;
+        z-index: -1;
+        padding: 150px 0 0 70px;
+    }
+    
+    .descRight {
+        font-size: small;
+        margin-bottom: 70px;
+        border: 30%;
+        margin-right: 100px;
+    }
+    
+    .headerRight {
+        margin-right: 20%;
+        font-size: x-large;
+    }
+    
+    #footer {
+        text-align: botton-right;
+    }
+    
+    .formDesc {
+        font-size: small;
+    }
+    
+    .button {
+        background-color: #4CAF50;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    /*
+
+<img src="images/bg-intro.svg" />
+
+ <h3>All your files in one secure location, accessible anywhere. </h3>
+
+        <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
+        <form action="">
+            <h3>Sign up for early access</h3>
+            <input type="email" name="" id="">
+            <button type="submit">Sign Up</button>
+        </form>
+        Privacy Policy
+
+        <footer>
+            <p class="attribution">
+                This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
+            </p>
+        </footer>
+*/
